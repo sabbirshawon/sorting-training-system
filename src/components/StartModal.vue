@@ -4,8 +4,7 @@
       <h3 class="text-lg font-medium">How many people?</h3>
     </template>
     <template #body>
-
-      <label class="block text-sm font-medium text-gray-600 mb-2" style="white-space: nowrap;">
+      <label class="block text-sm font-medium text-gray-600 mb-2">
         Enter a number of how many people you want to add to the list.
       </label>
       <input
@@ -65,11 +64,9 @@
       }
     },
     methods: {
-
       onFocus() {
         this.touched = true;
       },
-
       onInput(event) {
         this.$emit('update:numberOfPeople', event.target.value);
       }
@@ -82,5 +79,9 @@
   input:focus {
     border-color: #AAAAAA;
     outline: none;
+  }
+
+  label {
+    white-space: normal;
   }
 </style>
