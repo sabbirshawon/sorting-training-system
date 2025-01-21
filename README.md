@@ -2,7 +2,7 @@
 
 ## Live: 
 
-[Click to view](https://sorting.syloti.app/){:target="_blank"}
+<a href="https://sorting.syloti.app/" target="_blank">Click to view</a>
 
 ## Project setup
 ```
