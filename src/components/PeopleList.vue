@@ -1,4 +1,5 @@
 <!-- src/components/PeopleList.vue -->
+ 
 <template>
   <div class="bg-white rounded-lg shadow-sm">
     <div class="p-4 border-b text-right">
